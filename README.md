@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# React Todo List
 
-> Yet another to-do list but now with React!
+> Yet another to-do list. But now with React!
 
 ![screenshot](./screenshot.png)
 
@@ -13,10 +13,6 @@ A simple to-do list using React.
 - HTML & CSS
 - JavaScript
 - React
-
-## Live Demo
-
-Check out a live demo of this app [here](https://brenoxav.github.io/react-todo).
 
 ## Getting Started
 
@@ -32,7 +28,7 @@ To get a local copy up and running follow these steps.
 1. Download or clone the repository's contents.
 2. Go to the project's root directory.
 ```
-cd <project-folder>
+cd react-todo
 ```
 3. Install all the dependencies:
 ```
