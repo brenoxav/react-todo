@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import TodoItem from './TodoItem';
 
-class TodoList extends React.Component {
+class TodoList extends Component {
   render() {
     return (
       <ul>
@@ -10,6 +10,7 @@ class TodoList extends React.Component {
             key={todo.id}
             todo={todo}
             handleChangeProps={this.props.handleChangeProps}
+            deleteTodoProps={this.props.deleteTodoProps}
           />
         ))}
       </ul>
